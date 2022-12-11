@@ -41,14 +41,14 @@ This Api constains the following APIs
 curl --location --request POST 'dev_comm.test/api/register' \
 --form 'name="harry"' \
 --form 'email="harry@devcomm.com"' \
---form 'password="!Admin123"' \
---form 'confirm_password="!Admin123"'
+--form 'password="Admin123"' \
+--form 'confirm_password="Admin123"'
 
 
 2. Login - 
 curl --location --request POST 'dev_comm.test/api/login' \
 --form 'email="harry@devcomm.com"' \
---form 'password="!Admin123"'
+--form 'password="Admin123"'
 
 
 ** Register a username and a password since the Api is Auth Protected. **
